@@ -18,6 +18,15 @@
 		D798BE4A17D2C79C006764DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D798BE4917D2C79C006764DB /* Default-568h@2x.png */; };
 		D798BE4D17D2C79C006764DB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D798BE4B17D2C79C006764DB /* MainStoryboard.storyboard */; };
 		D798BE5017D2C79C006764DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D798BE4F17D2C79C006764DB /* ViewController.m */; };
+		D798BE5C17D2CDDA006764DB /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D798BE5817D2CDDA006764DB /* HTMLNode.m */; };
+		D798BE5D17D2CDDA006764DB /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D798BE5A17D2CDDA006764DB /* HTMLParser.m */; };
+		D798BE5E17D2CDDA006764DB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D798BE5B17D2CDDA006764DB /* README.md */; };
+		D798BE6017D2CE4C006764DB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D798BE5F17D2CE4C006764DB /* libxml2.dylib */; };
+		D798BE6A17D2E4F2006764DB /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D798BE6317D2E4F2006764DB /* HttpClient.m */; };
+		D798BE6B17D2E4F2006764DB /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D798BE6517D2E4F2006764DB /* ImageDownloader.m */; };
+		D798BE6C17D2E4F2006764DB /* ImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D798BE6717D2E4F2006764DB /* ImageStore.m */; };
+		D798BE6D17D2E4F2006764DB /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D798BE6917D2E4F2006764DB /* StringHelper.m */; };
+		D798BE6F17D2EFE8006764DB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D798BE6E17D2EFE8006764DB /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,21 @@
 		D798BE4C17D2C79C006764DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D798BE4E17D2C79C006764DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D798BE4F17D2C79C006764DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D798BE5717D2CDDA006764DB /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		D798BE5817D2CDDA006764DB /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		D798BE5917D2CDDA006764DB /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		D798BE5A17D2CDDA006764DB /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		D798BE5B17D2CDDA006764DB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D798BE5F17D2CE4C006764DB /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		D798BE6217D2E4F2006764DB /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		D798BE6317D2E4F2006764DB /* HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
+		D798BE6417D2E4F2006764DB /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		D798BE6517D2E4F2006764DB /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		D798BE6617D2E4F2006764DB /* ImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageStore.h; sourceTree = "<group>"; };
+		D798BE6717D2E4F2006764DB /* ImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageStore.m; sourceTree = "<group>"; };
+		D798BE6817D2E4F2006764DB /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
+		D798BE6917D2E4F2006764DB /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
+		D798BE6E17D2EFE8006764DB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D798BE6F17D2EFE8006764DB /* MediaPlayer.framework in Frameworks */,
+				D798BE6017D2CE4C006764DB /* libxml2.dylib in Frameworks */,
 				D798BE3417D2C79C006764DB /* UIKit.framework in Frameworks */,
 				D798BE3617D2C79C006764DB /* Foundation.framework in Frameworks */,
 				D798BE3817D2C79C006764DB /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +82,8 @@
 		D798BE2717D2C79C006764DB = {
 			isa = PBXGroup;
 			children = (
+				D798BE6117D2E4F2006764DB /* ImageStore */,
+				D798BE5617D2CDDA006764DB /* HMTL-Parser */,
 				D798BE3917D2C79C006764DB /* xvideosPerser */,
 				D798BE3217D2C79C006764DB /* Frameworks */,
 				D798BE3117D2C79C006764DB /* Products */,
@@ -73,6 +101,8 @@
 		D798BE3217D2C79C006764DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D798BE6E17D2EFE8006764DB /* MediaPlayer.framework */,
+				D798BE5F17D2CE4C006764DB /* libxml2.dylib */,
 				D798BE3317D2C79C006764DB /* UIKit.framework */,
 				D798BE3517D2C79C006764DB /* Foundation.framework */,
 				D798BE3717D2C79C006764DB /* CoreGraphics.framework */,
@@ -105,6 +135,33 @@
 				D798BE4917D2C79C006764DB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D798BE5617D2CDDA006764DB /* HMTL-Parser */ = {
+			isa = PBXGroup;
+			children = (
+				D798BE5717D2CDDA006764DB /* HTMLNode.h */,
+				D798BE5817D2CDDA006764DB /* HTMLNode.m */,
+				D798BE5917D2CDDA006764DB /* HTMLParser.h */,
+				D798BE5A17D2CDDA006764DB /* HTMLParser.m */,
+				D798BE5B17D2CDDA006764DB /* README.md */,
+			);
+			path = "HMTL-Parser";
+			sourceTree = "<group>";
+		};
+		D798BE6117D2E4F2006764DB /* ImageStore */ = {
+			isa = PBXGroup;
+			children = (
+				D798BE6217D2E4F2006764DB /* HttpClient.h */,
+				D798BE6317D2E4F2006764DB /* HttpClient.m */,
+				D798BE6417D2E4F2006764DB /* ImageDownloader.h */,
+				D798BE6517D2E4F2006764DB /* ImageDownloader.m */,
+				D798BE6617D2E4F2006764DB /* ImageStore.h */,
+				D798BE6717D2E4F2006764DB /* ImageStore.m */,
+				D798BE6817D2E4F2006764DB /* StringHelper.h */,
+				D798BE6917D2E4F2006764DB /* StringHelper.m */,
+			);
+			path = ImageStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +220,7 @@
 				D798BE4817D2C79C006764DB /* Default@2x.png in Resources */,
 				D798BE4A17D2C79C006764DB /* Default-568h@2x.png in Resources */,
 				D798BE4D17D2C79C006764DB /* MainStoryboard.storyboard in Resources */,
+				D798BE5E17D2CDDA006764DB /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +234,12 @@
 				D798BE4017D2C79C006764DB /* main.m in Sources */,
 				D798BE4417D2C79C006764DB /* AppDelegate.m in Sources */,
 				D798BE5017D2C79C006764DB /* ViewController.m in Sources */,
+				D798BE5C17D2CDDA006764DB /* HTMLNode.m in Sources */,
+				D798BE5D17D2CDDA006764DB /* HTMLParser.m in Sources */,
+				D798BE6A17D2E4F2006764DB /* HttpClient.m in Sources */,
+				D798BE6B17D2E4F2006764DB /* ImageDownloader.m in Sources */,
+				D798BE6C17D2E4F2006764DB /* ImageStore.m in Sources */,
+				D798BE6D17D2E4F2006764DB /* StringHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +289,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -248,7 +313,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

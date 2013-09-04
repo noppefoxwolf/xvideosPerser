@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HTMLParser.h"
+#import "ImageStore.h"
+#import <MediaPlayer/MediaPlayer.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+    IBOutlet UITableView *MainTable;
+    NSMutableArray* statuses;
+    ImageStore*imageStore;
+    IBOutlet UISegmentedControl *Undet_segment;
+}
+- (IBAction)SegmentRef:(id)sender;
 
 @end
